@@ -1,4 +1,5 @@
-import { Link, routes } from '@redwoodjs/router'
+import { Button } from '@mui/material'
+
 import { MetaTags } from '@redwoodjs/web'
 
 const HomePage = () => {
@@ -6,6 +7,7 @@ const HomePage = () => {
     <>
       <MetaTags title="Home" description="Home page" />
       <h1>Home</h1>
+      <Button variant="contained">Hello, Material UI</Button>
     </>
   )
 }
